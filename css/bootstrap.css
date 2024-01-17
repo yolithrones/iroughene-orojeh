@@ -223,7 +223,12 @@ figure {
 
 img {
     vertical-align: middle;
-    border-style: none
+    border-style: none;
+    max-width: 680px;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 0px auto 180px;
+ 
 }
 
 svg {

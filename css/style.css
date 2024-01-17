@@ -59,6 +59,17 @@ a {
 .row.m0 {
   margin: 0px; }
 
+  #riff{
+    font-weight:bold;
+    font-size: 16px;
+  
+  }
+  
+  #siff{
+    text-align: center;
+    padding-bottom: 20px;
+  
+  }
 body {
   line-height: 26px;
   font-size: 16px;
@@ -101,6 +112,112 @@ button:focus {
     margin: auto; } }
 .white_bg {
   background: #fff !important; }
+
+  #size{
+    font-size: 14px;
+    color: white;
+  }
+
+
+  #inquireForm {
+    width: 90%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #8490ff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+ 
+  
+  #inquireForm .input{
+    margin-bottom: 15px;
+  }
+  
+  #inquireForm label {
+    display: block;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  #name{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8490ff;
+    border-radius: 3px;
+    font-size: 16px;
+
+    &:focus {
+      border-color:  #8490ff;  /* Pink border on focus */
+      outline: none;  /* Remove default outline */
+    }
+    
+    
+  }
+
+  #checkbox{
+    background-color: #2ebccd;
+    border:  #8490ff;
+    &:focus {
+      border-color:  #8490ff;  /* Pink border on focus */
+      outline: none;  /* Remove default outline */
+    }
+    
+  }
+  #title {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+
+  #email{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8490ff;
+    border-radius: 3px;
+    font-size: 16px;
+    &:focus {
+      border-color:  #8490ff;  /* Pink border on focus */
+      outline: none;  /* Remove default outline */
+    }
+  }
+
+  #submit-form{
+    font-size: 22px;
+  }
+  
+ 
+  /* Media queries for responsive layout */
+  
+  @media (max-width: 768px) {
+    #inquireForm {
+      width: 100%;
+    }
+  
+    #inquireForm label {
+      font-size: 14px;
+    }
+  
+    #inquireForm input {
+      font-size: 14px;
+    }
+  
+    #submit {
+      font-size: 16px;
+    }
+  }
+  
+
+
+
+
+
+
+
 
 /* Main Title Area css
 ============================================================================================ */
