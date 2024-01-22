@@ -33,6 +33,7 @@
 	}
 }
 
+
 @media (max-width:991px){
 	/* Main Menu Area css
 	============================================================================================ */
@@ -192,6 +193,7 @@
 		padding-left: 0px;
 	}
 }
+
 @media (max-width:767px){
 	.home_banner_area {
 		min-height: 500px;
@@ -274,8 +276,12 @@
    
 	.home_banner_area .banner_inner .banner_content img{
 		display: block !important;
-		margin-top: -100px;
+		margin-top: -110px;
 		
+	}
+
+	#inquireForm{
+		display: block !important;
 	}
 
 	.home_banner_area .banner_inner {
